@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>image gallery</title>
+	<style>
+*{
+	box-sizing:border-box;
+	
+
+}
+body{
+	margin:0;
+	background:gray;
+	animation: animate 6s linear infinite;
+	margin-bottom: 25rem;
+}
+
+}
+@keyframes animate{
+	0%{
+	filter:hue-rotate(0deg);
+		
+	}
+	
+	}
+	100%{
+		filter:hue-rotate(360deg);
+		
+	}
+}
+nav{
+	background:skyblue;
+	width:100%;
+	overflow:auto;
+
+}
+ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+
+}
+li{
+	float:left;
+}
+nav a{
+	width:120px;
+	display:inline-block;
+	text-decoration:none;
+	text-align:center;
+	background:skyblue;
+	font-size:17px;
+	color:white;
+	padding:20px 10px;
+	font-family:Arial;
+
+}
+nav a:hover{
+	background :gray;
+	color:black;
+
+}
+esc{
+	padding:5px;
+	text-align:bottom;
+}
+.container{
+	max-width:1200px;
+	margin:auto;
+	background:skyblue;
+	overflow:auto;
+	flex-wrap: wrap;
+	gap:24px;
+
+}
+.gallery{
+	margin:5px;
+	border:1px solid #ccc;
+	float:left;
+	width:390px;
+	justify-content: space-evenly;
+
+
+}
+.gallery img{
+	width:100%;
+	height:200px;
+	padding:0;
+	margin:0;
+
+}
+.dl{
+	padding:0;
+	list-style-type: none;
+	display:flex;
+	text-transform: none;
+	list-style: none;
+	text-decoration: none;
+}
+	</style>
+	<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--link external css:style.css-->
+<link rel="stylesheet" type="text/css" href="styles.css"
+	<title>MY GALLERY</title>
+</head>
+<body>
+	<nav>
+		<ol>
+	<li><a href="lab1.html">lab1.html</a></li>
+	<li><a href="lab2.html">lab2.html</a></li>
+	<li><a href="lab3.html">lab3.html</a></li>
+	<li><a href="form.html">form.html</a></li>
+	
+</ol>
+</nav>
+<div class="container">
+<div class="grid">
+
+
+ <div class="gallery">
+	<img src="pic.jpg">	
+<div class="desc">description of the image</div>
+</div>
+
+
+<div class="gallery">
+	<img src="pic3.jpg">	
+<div class="desc">description of the image</div>
+</div>
+
+
+<div class="gallery">
+	<img src="pic4.jpg">	
+<div class="desc">description of the image</div>
+</div>
+
+<div class="gallery">
+	<img src=" pic5.jpg">
+<div class="desc">description of the image</div>
+</div>
+
+<div class="gallery">
+	<img src="pic2.jpg">
+<div class="desc">description of the image</div>
+</div>
+
+<div class="gallery">
+	<img src="pic6.jpg">
+	<div class="desc">description of the image</div>
+
+</div>	
+</div>
+<a href="lab1.html">lab1!</a>
+<a href="lab2.html">lab2!</a>
+<a href="lab3.html">lab3!</a>
+</body>
+</html>
+	p{
+	<img src="" align="center">
+	<br>
+	<br>
+	<h3 align="left">login</h3>
+	<div><form>
+		<div><label>firstname</label></div>
+		<div><input type="text" name="username" placeholder="Enter firstname"></div>
+		<div><label>lastname</label></div>
+		<div><input type="text" name="lastname" placeholder="Enter lastname"></div>
+		<div><label>position</label></div>
+		<div><input type="text" name="phonenumber" placeholder="Enter phonenumber"></div>
+		<div><label>Email</label></div>
+		<div><input type="text" name="email" placeholder="Enter email"></div>
+		<div><label>password</label></div>
+		<div><input type="text" name="password" placeholder="Enter password"></div>
+		<div><label>postion played </label>
+		<select>
+			<div><option>--select position--</option>
+			<option>leftback</option>
+			<option>midfielder</option>
+			<option>rightback</option>
+			<option>centerback</option>
+			<option>winger</option>
+			<option>coach</option>
+			<option>assistant coach</option>
+			<option>goalkeeper</option>
+			<option>deepsix</option>
+			<option>left winger</option><div>
+			<div><input type="submit" name="login" values="login"></div>
+			<div><input type="Reset" name="login" values="login"></div>
+		</select>
+	</form></div>
+</body>
+</html>
